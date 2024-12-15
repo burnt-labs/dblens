@@ -4,7 +4,7 @@ compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "../../web/out"
 
 [env.preview.vars]
-NEXT_PUBLIC_API_HOST = "https://dblens-api.burnt.workers.dev"
+NEXT_PUBLIC_API_HOST = "https://airdrops.dblens.burnt.zone"
 
 [env.production.vars]
-NEXT_PUBLIC_API_HOST = "https://dblens-api.burnt.workers.dev"
+NEXT_PUBLIC_API_HOST = "https://airdrops.dblens.burnt.zone"

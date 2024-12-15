@@ -2,5 +2,6 @@
 // After adding bindings to `wrangler.toml`, regenerate this interface via `npm run cf-typegen`
 interface Env {
     HYPERDRIVE: Hyperdrive;
+    ALLOWED_ORIGIN: string;
     OPENAI_API_KEY: string | undefined;
 }

@@ -1,8 +1,10 @@
-name = "mainnet-airdrop-dblens"
+name = "dblens"
 compatibility_date = "2024-11-29"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "../../web/out"
 
-services = [
-  { binding = "api", service = "dblens-api" }
-]
+[env.preview.vars]
+NEXT_PUBLIC_API_HOST = "https://dblens-api.burnt.workers.dev"
+
+[env.production.vars]
+NEXT_PUBLIC_API_HOST = "https://dblens-api.burnt.workers.dev"

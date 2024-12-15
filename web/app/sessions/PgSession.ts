@@ -165,7 +165,7 @@ class PgSession implements DbSession {
         .catch(reject);
     });
   };
-  
+
   getAiFix = (query: string, error: string): Promise<AiSuggestion> => {
     return new Promise<AiSuggestion>((resolve, reject) => {
       this.getAllDbObjects()

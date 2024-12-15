@@ -21,8 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <CSPostHogProvider>
-        <WelcomeModal />
+      {/* <CSPostHogProvider> */}
+        {/* <WelcomeModal /> */}
         <body className={inter.className}>
           <div className="w-screen h-screen max-h-screen text-gray-800 focus:font-bold focus:outline-none">
             <Titlebar />
@@ -34,7 +34,7 @@ export default function RootLayout({
             </div>
           </div>
         </body>
-      </CSPostHogProvider>
+      {/* </CSPostHogProvider> */}
     </html>
   );
 }

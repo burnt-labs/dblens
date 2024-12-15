@@ -1,0 +1,10 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "dblens-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-05"
+compatibility_flags = ["nodejs_compat_v2"]
+
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = "84ec87d65b57429499b5fb2d7dd41c00"
+localConnectionString = 'postgres://postgresUser:postgresPW@localhost:5432/postgresDB'
